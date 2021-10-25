@@ -1,0 +1,118 @@
+{
+	"Sheet1": [
+		{
+			"A": 1,
+			"B": "January",
+			"D": "January",
+			"G": "Select Month"
+		},
+		{
+			"A": 2,
+			"B": "February",
+			"D": "February",
+			"G": "August"
+		},
+		{
+			"A": 3,
+			"B": "March",
+			"D": "March"
+		},
+		{
+			"A": 4,
+			"B": "April",
+			"D": "April"
+		},
+		{
+			"A": "",
+			"D": "June"
+		},
+		{
+			"A": 5,
+			"B": "June",
+			"D": "July"
+		},
+		{
+			"A": 6,
+			"B": "July",
+			"D": "August"
+		},
+		{
+			"A": 7,
+			"B": "August",
+			"D": "October"
+		},
+		{
+			"A": "",
+			"D": "December"
+		},
+		{
+			"A": 8,
+			"B": "October",
+			"D": ""
+		},
+		{
+			"A": "",
+			"D": ""
+		},
+		{
+			"A": 9,
+			"B": "December",
+			"D": ""
+		}
+	],
+	"MyLinks": [
+		{
+			"B": "Contextures Products"
+		},
+		{
+			"B": "Pivot Power Premium Add-in",
+			"C": "Time-saving tools for pivot table power users"
+		},
+		{
+			"B": "UserForms for Data Entry ebook Kit",
+			"C": "Step by step instructions and videos"
+		},
+		{
+			"B": "Contextures Excel Tools Add-in",
+			"C": "Make instant backups, sort sheets, and many more tools"
+		},
+		{
+			"B": "Data Entry Search Popup",
+			"C": "Makes data entry easier when choosing from long list"
+		},
+		{
+			"B": "Data Entry Popup",
+			"C": "Select single or multiple items from a listbox, to enter in a single cell"
+		},
+		{
+			"B": "30 Excel Functions in 30 Days eBook Kit",
+			"C": "Sample workbook and easy to follow user guide for key Excel functions"
+		},
+		{
+			"B": "Contextures Sites & News"
+		},
+		{
+			"B": "Contextures Excel Newsletter",
+			"C": "Weekly Excel tips, tutorials, videos, and news"
+		},
+		{
+			"B": "Contextures Excel Tips Website",
+			"C": "Hundreds of tutorials, tips and sample files"
+		},
+		{
+			"B": "Contextures Excel Blog",
+			"C": "Read the Excel tutorials and share your comments"
+		},
+		{
+			"B": "Excel Pivot Tables Blog",
+			"C": "Pivot table tutorials and tips, with comments and questions"
+		},
+		{
+			"B": "Other Excel Products"
+		},
+		{
+			"B": "Contextures Recommends",
+			"C": "Other Excel tools and training, recommended by Debra"
+		}
+	]
+}

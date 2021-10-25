@@ -1,0 +1,25 @@
+{
+  "name": "project-xxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thread.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmcrg-oau/project-xxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmcrg-oau/project-xxy/issues"
+  },
+  "homepage": "https://github.com/pmcrg-oau/project-xxy#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "convert-excel-to-json": "^1.7.0",
+    "lodash": "^4.17.21",
+    "xlsx": "^0.17.3"
+  }
+}
