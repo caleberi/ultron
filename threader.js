@@ -6,10 +6,10 @@ const amqp = require('amqplib/callback_api');
 const queue = "xlsx_json";
 const path = require("path");
 const fs = require("fs");
-if(!fs.existsSync(path.join(__dirname,`logs.out`))){
-    fs.writeFileSync(path.join(__dirname,`logs.out`),"",null);
+if(!fs.existsSync(path.join(__dirname,`logs.log`))){
+    fs.writeFileSync(path.join(__dirname,`logs.log`),"",null);
 }
-const logger = fs.createWriteStream(path.join(__dirname,`logs.out`),{flags:"r+"});
+const logger = fs.createWriteStream(path.join(__dirname,`logs.log`),{flags:"r+"});
 
 /**
  * Processes cli arguments into options object
@@ -69,7 +69,6 @@ function buildOptions(args){
     let cpus =  _.isEqual(os.cpus(),0)?2:os.cpus().length/2;
     if(isMainThread){
         // create  a producer in this block  using worker api
-        
         amqp.connect("amqp://localhost:5672",function publisher(err, conn) {
             if (err)
               throw {err:err,msg:"CONNECTION FAILURE"};
@@ -137,7 +136,7 @@ function buildOptions(args){
                             parentPort.postMessage(`Finished processing file with name ${filepath} `+
                             `in ${finishTime-startTime}`+` millisecond${(finishTime-startTime)>1?"s":""}`);
                         });
-                    }
+                    } 
                     else{
                         console.log("Message was null");
                         channel.checkQueue(queue,function(err,queue){
